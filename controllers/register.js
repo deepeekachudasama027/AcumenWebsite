@@ -7,7 +7,7 @@ exports.getdetails = async (req, res, next) => {
       const getdata = await getrollno(req.body.rollno);
       if (getdata.rowCount > 0) {
         res.render("layout/registration", {
-          message: "User already exists! ",
+          message: "User already exists!",
         })
       } else {
         const updatedata = await updatedetails(
@@ -28,11 +28,11 @@ exports.getdetails = async (req, res, next) => {
         updatesession_clueminati(req.body.rollno)
         
         res.render("layout/registration", {
-          message: "Successfully registered! ",
+          message: "Successfully Registered!",
         })
       }
     } else  res.render("layout/registration", {
-      message: "Invalid Credentials! ",
+      message: "Invalid Credentials!",
     })
   } catch (err) {
     next(err)
