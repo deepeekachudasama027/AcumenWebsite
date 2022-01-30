@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>INFOTREK'21 | Registration</title>
+    <link rel="icon" href="../image/template/logo.png" type="image/png" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+      name="viewport"
+    />
+    <link rel="shortcut icon" href="images/acmnew1.png">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/register_style.css" />
+  </head>
+
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="images/2.mp4" type="video/mp4">
+    </video>
+
+  <nav class="navbar">
+    <div>
+      <a href="/" class="navbar-brand"><img src="images/Infotrek2.png" alt="" /></a>
+    </div>
+
+    <div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+    </div>
+
+    <div class="navbar-links">
+      <ul>
+        <li><a href="/about"> About </a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/registration">Registration</a></li>
+        <li><a href="/team">Team</a></li>
+        <li><a href="/contact">Contact </a></li>
+   
+
+      </ul>
+    </div>
+  </nav>
+        <div>
+    <form class="box" method="POST" action="register">
+      <h1 class="event-page">Registration</h1>
+      <input type="text" name="name"  placeholder="Your Name" autocomplete="off" autocapitalize="on" required />
+      <input type="text" pattern="\d*" name="rollno" placeholder="Roll Number" autocomplete="off" minlength="9"
+        maxlength="9" required />
+         <input type="email" name="email" placeholder="Email ID" autocomplete="off" required>
+      <input type="Password" name="password" placeholder="Password" autocomplete="off" minlength="5" required />
+       
+      <input type="Submit" name="register" value="Register" />
+      <p style="color: peachpuff; padding-top: 20px;">{{message}}</p>
+    </form>
+    {{!-- <center>
+        <h1 style="color: rgb(243, 166, 23); margin-top:25vh; font-size:10vh">Registration Closed</h1>
+    </center> --}}
+  
+  </div>
+
+    <script>
+      const toggleButton = document.getElementsByClassName("toggle-button")[0];
+      const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+      toggleButton.addEventListener("click", () => {
+        navbarLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  font-family: Blinker, sans-serif;
+  color: #0c222b;
+  background-position: center;
+  background-color: black;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+  
+  .heading{
+    text-align: center;
+    
+  }
+
+  .heading h1{
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif ;
+    color: rgb(243, 166, 23) !important;
+    text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5);
+  }
+
+ 
+.container {
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.container .card {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  margin: 10px;
+  margin-right: 40px;
+  margin-left: 30px;
+  overflow: hidden;
+  box-shadow: 10px 15px 15px rgba(100, 98, 98, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card img{
+  
+  padding : 0;
+  width: 25rem;
+  height: 25rem;
+}
+
+#deepeeka {
+  width: 23rem;
+  height: 25rem;
+}
+
+.container .card .content {
+  position: absolute;
+  bottom: -160px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  flex-direction: column;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: bottom 0.5s;
+  transition-delay: 0.65s;
+}
+.container .card:hover .content {
+  bottom: 0;
+  transition-delay: 0s;
+}
+
+
+
+.container .card .content .contentBx h3 {
+  text-transform: uppercase;
+  color: rgb(242, 248, 250);
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  margin: 20px 0 15px;
+  line-height: 1.1em;
+  transition: 0.5s;
+  transition-delay: 0.6s;
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.container .card:hover .content .contentBx h3 {
+  opacity: 1;
+  transform: translateY(0);
+}
+.container .card .content .contentBx h3 span {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: initial;
+}
+.container .card .content .sci {
+  position: relative;
+  bottom: 10px;
+  display: flex;
+  margin-left: -5.5vh;
+  padding-right: 0.1rem;
+}
+.container .card .content .sci li {
+  list-style: none;
+  /* margin: 0 7px; */
+  margin-left: 1px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+  transition-delay: calc(0.2s * var(--i));
+}
+
+.container .card:hover .content .sci li {
+  transform: translateY(0);
+  opacity: 0.8;
+  padding-left: 0.2rem;
+  padding-right: 0.5rem;
+  margin-left: 0.05rem;
+}
+.container .card .content .sci li a i{
+  color: rgb(241, 233, 233);
+  font-size: 24px;
+  margin-left: 0.01rem;
+}
+
+.fas {
+  position: relative;
+  top: 0;
+  margin-left: 0.2rem !important;
+  transition: all 200ms ease-in-out;
+}
+
+.fas:hover{
+  color: rgb(10, 10, 10) !important;
+}
+
+.fab {
+  position: relative;
+  top: 0;
+  margin-left: 0.2rem !important;
+  transition: all 200ms ease-in-out;
+}
+
+.fab:hover{
+  color: rgb(3, 3, 3) !important;
+}
+
+@media screen and (max-width: 800px) {
+
+
+  body{
+    background-size: 300% 300%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+
+  .heading{
+    margin-top:2rem;
+  }
+
+  .heading h1{
+    font-size: 30px;
+  }
+
+}
