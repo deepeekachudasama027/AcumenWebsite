@@ -11,9 +11,9 @@ router.get("/registration", (req, res) => {
   res.render("layout/registration");
 });
 
-router.get("/gallery", (req, res) => {
-  res.sendFile(path.resolve("./public/static/gallery.html"));
-});
+// router.get("/gallery", (req, res) => {
+//   res.sendFile(path.resolve("./public/static/gallery.html"));
+// });
 
 router.get("/events", (req, res) => {
   res.sendFile(path.resolve("./public/static/events.html"));

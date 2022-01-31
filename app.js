@@ -37,5 +37,5 @@ app.use(cors());
 app.use(router);
 
 app.listen(process.env.PORT || 3333, () => {
-  console.log("Welcome to INFOTREK.....");
+  console.log("Welcome to ACUMEN.....");
 });
