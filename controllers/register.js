@@ -1,5 +1,5 @@
 const { getrollno, updatedetails,getemail } = require("../models/registration");
-const {updatelogin_clueminati,updatelogin_arsenal, updatesession_clueminati}  = require("../models/login");
+const {updatelogin_clueminati, updatesession_clueminati}  = require("../models/login");
 
 exports.getdetails = async (req, res, next) => {
   try {
@@ -21,10 +21,7 @@ exports.getdetails = async (req, res, next) => {
           req.body.rollno,
           req.body.password
         )
-        const updatearsenal = await updatelogin_arsenal(
-          req.body.rollno,
-          req.body.password
-        )
+       
         const updatesession= await
         updatesession_clueminati(req.body.rollno)
         

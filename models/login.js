@@ -33,10 +33,3 @@ exports.updatelogin_clueminati = (rollno, password, callback) => {
     );
   };
 
-  exports.updatelogin_arsenal = (rollno, password, callback) => {
-    return pool.query(
-      "Insert into login_arsenal (rollno,password) values ($1,$2) on conflict do nothing",
-      [rollno, password],
-      callback
-    );
-  };
