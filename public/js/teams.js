@@ -43,148 +43,317 @@ function func23(){
    </div>
    <div class="row h-100 justify-content-center align-items-center">
    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-   <div class="outer-div">
-     <div class="inner-div">
-       <div class="front">
-         <div class="front__bkg-photo"></div>
-         <div class="front__face-photo" style="background: url(images/Batch2k23/SonuGupta.jpg) no-repeat; background-size: contain;">
+     <div class="outer-div">
+       <div class="inner-div">
+         <div class="front">
+           <div class="front__bkg-photo"></div>
+           <div
+             class="front__face-photo"
+             style="
+               background: url(images/Batch2k23/ShivamDubey.jpeg)
+                 no-repeat;
+               background-size: contain;
+               padding-top: 1%;
+             "
+           ></div>
+
+           <div class="front__text">
+             <h3 class="front__text-header">Shivam Dubey</h3>
+             <p class="front__text-para">Chairman</p>
+           </div>
          </div>
-         <div class="front__text">
-           <h3 class="front__text-header">Sonu Gupta</h3>
-        </div>
-       </div>
-       <div class="back">
-         <div class="social-media-wrapper">
-           <a href="https://www.facebook.com/104.sonugupta" target="_blank" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-           <a href="https://www.linkedin.com/in/104-sonu-gupta/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/sonu_gupta_104/" target="_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+         <div class="back">
+           <div class="social-media-wrapper">
+             <a
+               href="https://www.facebook.com/shivam dubey/"
+               target="_blank"
+               class="social-icon"
+               ><i
+                 class="fab fa-facebook-square"
+                 aria-hidden="true"
+               ></i
+             ></a>
+             <a
+               href="https://www.linkedin.com/in/shivam-dubey-862086203/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+             ></a>
+             <a
+               href="https://www.instagram.com/shivamdubey405/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-instagram" aria-hidden="true"></i
+             ></a>
+           </div>
          </div>
        </div>
      </div>
    </div>
+   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+     <div class="outer-div">
+       <div class="inner-div">
+         <div class="front">
+           <div class="front__bkg-photo"></div>
+           <div
+             class="front__face-photo"
+             id="simran"
+             style="
+               background: url(images/Batch2k23/simran.jpg) no-repeat;
+               background-size: contain;
+               padding-top: 1%;
+             "
+           ></div>
+           <div class="front__text">
+             <h3 class="front__text-header">Simran Garg</h3>
+             <p class="front__text-para">Vice Chairman</p>
+           </div>
+         </div>
+         <div class="back">
+           <div class="social-media-wrapper">
+             <a
+               href="https://www.facebook.com/SimranGarg0501"
+               target="_blank"
+               class="social-icon"
+               ><i
+                 class="fab fa-facebook-square"
+                 aria-hidden="true"
+               ></i
+             ></a>
+             <a
+               href="https://www.linkedin.com/in/simran-garg-0501"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+             ></a>
+             <a
+               href="https://www.instagram.com/simran_garg0501/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-instagram" aria-hidden="true"></i
+             ></a>
+           </div>
+         </div>
+       </div>
+     </div>
    </div>
    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-       <div class="outer-div">
-         <div class="inner-div">
-           <div class="front">
-             <div class="front__bkg-photo"></div>
-             <div class="front__face-photo" style="background: url(images/Batch2k23/simran.jpg) no-repeat; background-size: contain; padding-top: 1%;"></div>
-             <div class="front__text">
-               <h3 class="front__text-header">Simran Garg</h3>
-               
-              <!--<span class="front__text-hover">Hover to Find Me</span>-->
-             </div>
+     <div class="outer-div">
+       <div class="inner-div">
+         <div class="front">
+           <div class="front__bkg-photo"></div>
+           <div
+             class="front__face-photo"
+             style="
+               background: url(images/Batch2k23/SonuGupta.jpg)
+                 no-repeat;
+               background-size: contain;
+             "
+           ></div>
+
+           <div class="front__text">
+             <h3 class="front__text-header">Sonu Gupta</h3>
+             <p class="front__text-para">Treasurer</p>
            </div>
-           <div class="back">
-             <div class="social-media-wrapper">
-               <a href="https://www.facebook.com/SimranGarg0501" target="_blank" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-               <a href="https://www.linkedin.com/in/simran-garg-0501" target="_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/simran_garg0501/" target="_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-             </div>
+         </div>
+         <div class="back">
+           <div class="social-media-wrapper">
+             <a
+               href="https://www.facebook.com/104.sonugupta"
+               target="_blank"
+               class="social-icon"
+               ><i
+                 class="fab fa-facebook-square"
+                 aria-hidden="true"
+               ></i
+             ></a>
+             <a
+               href="https://www.linkedin.com/in/104-sonu-gupta/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+             ></a>
+             <a
+               href="https://www.instagram.com/sonu_gupta_104/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-instagram" aria-hidden="true"></i
+             ></a>
            </div>
          </div>
        </div>
-       </div>  
-       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-           <div class="outer-div">
-             <div class="inner-div">
-               <div class="front">
-                 <div class="front__bkg-photo"></div>
-                 <div class="front__face-photo" style="background: url(images/Batch2k23/YasserKhan.jpg) no-repeat; background-size: contain; padding-top: 1%;"></div>
-                 <div class="front__text">
-                   <h3 class="front__text-header">Yasser Osman Khan</h3>
-    
-                  <!--<span class="front__text-hover">Hover to Find Me</span>-->
-                 </div>
-               </div>
-               <div class="back">
-                 <div class="social-media-wrapper">
-                   <a href="https://www.facebook.com/yasser.o.khan1234" target="_blank" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                   <a href="https://www.linkedin.com/in/yasserkhan45" target="_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                    <a href="http://instagram.com/yasserkhan45" target="_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                 </div>
-               </div>
-             </div>
-           </div>
-           </div>
-   
+     </div>
    </div>
-   <div class="row">
-       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-       <div class="outer-div">
-         <div class="inner-div">
-           <div class="front">
-             <div class="front__bkg-photo"></div>
-             <div class="front__face-photo" style="background: url(images/Batch2k23/CharuBajaj.jpg) no-repeat; background-size: contain; padding-top: 1%;"></div>
-             <div class="front__text">
-               <h3 class="front__text-header">Charu Bajaj</h3>
-             </div>
+ </div>
+ <div class="row h-100 justify-content-center align-items-center">
+   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+     <div class="outer-div">
+       <div class="inner-div">
+         <div class="front">
+           <div class="front__bkg-photo"></div>
+           <div
+             class="front__face-photo"
+             style="
+               background: url(images/Batch2k23/YasserKhan.jpg)
+                 no-repeat;
+               background-size: contain;
+               padding-top: 1%;
+             "
+           ></div>
+
+           <div class="front__text">
+             <h3 class="front__text-header">Yasser Osman Khan</h3>
+             <p class="front__text-para">Programmer</p>
            </div>
-           <div class="back">
-             <div class="social-media-wrapper">
-                <a href="https://www.linkedin.com/in/charu-bajaj-2888b4203/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-               </div>
+         </div>
+         <div class="back">
+           <div class="social-media-wrapper">
+             <a
+               href="https://www.facebook.com/yasser.o.khan1234"
+               target="_blank"
+               class="social-icon"
+               ><i
+                 class="fab fa-facebook-square"
+                 aria-hidden="true"
+               ></i
+             ></a>
+             <a
+               href="https://www.linkedin.com/in/yasserkhan45"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+             ></a>
+             <a
+               href="http://instagram.com/yasserkhan45"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-instagram" aria-hidden="true"></i
+             ></a>
            </div>
          </div>
        </div>
-       </div>
-       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-           <div class="outer-div">
-             <div class="inner-div">
-               <div class="front">
-                 <div class="front__bkg-photo"></div>
-                 <div class="front__face-photo" style="background: url(images/Batch2k23/Deepeeka.jpg) no-repeat; background-size: contain; padding-top: 1%;"></div>
-                 <div class="front__text">
-                   <h3 class="front__text-header">Deepeeka</h3>
-                   </div>
-               </div>
-               <div class="back">
-                 <div class="social-media-wrapper">
-                   <a href="https://www.facebook.com/deepeeka.chudasama/" target="_blank" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                   <a href="https://www.linkedin.com/in/deepeekachudasama/"target="_blank"  class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/chudasamadeepeeka/" target="_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                 </div>
-               </div>
-             </div>
+     </div>
+   </div>
+   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+     <div class="outer-div">
+       <div class="inner-div">
+         <div class="front">
+           <div class="front__bkg-photo"></div>
+           <div
+             class="front__face-photo"
+             style="
+               background: url(images/Batch2k23/Deepeeka.jpg) no-repeat;
+               background-size: contain;
+               padding-top: 1%;
+             "
+           ></div>
+           <div class="front__text">
+             <h3 class="front__text-header">Deepeeka</h3>
+             <p class="front__text-para">Web Master</p>
            </div>
-           </div>  
-           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-           <div class="outer-div">
-             <div class="inner-div">
-               <div class="front">
-                 <div class="front__bkg-photo"></div>
-                 <div class="front__face-photo" style="background: url(images/Batch2k23/ShivamDubey.jpeg) no-repeat; background-size: contain; padding-top: 1%;"></div>
-                 <div class="front__text">
-                   <h3 class="front__text-header">Shivam Dubey</h3>
-                   
-                  <!--<span class="front__text-hover">Hover to Find Me</span>-->
-                 </div>
-               </div>
-               <div class="back">
-                 <div class="social-media-wrapper">
-                   <a href="https://www.facebook.com/shivam dubey/" target="_blank" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                   <a href="https://www.linkedin.com/in/shivam-dubey-862086203/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/shivamdubey405/" target="_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                 </div>
-               </div>
-             </div>
          </div>
+         <div class="back">
+           <div class="social-media-wrapper">
+             <a
+               href="https://www.facebook.com/deepeeka.chudasama/"
+               target="_blank"
+               class="social-icon"
+               ><i
+                 class="fab fa-facebook-square"
+                 aria-hidden="true"
+               ></i
+             ></a>
+             <a
+               href="https://www.linkedin.com/in/deepeekachudasama/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+             ></a>
+             <a
+               href="https://www.instagram.com/chudasamadeepeeka/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-instagram" aria-hidden="true"></i
+             ></a>
+           </div>
          </div>
-       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-               <div class="outer-div">
-                 <div class="inner-div">
-                   <div class="front">
-                     <div class="front__bkg-photo"></div>
-                     <div class="front__face-photo" style="background: url(images/Batch2k23/Jayshree.jpg) no-repeat; background-size: contain; padding-top: 1%;"></div>
-                     <div class="front__text">
-                       <h3 class="front__text-header">Jayshree Choudhary</h3>
-                      </div>
-                   </div>
-                   <div class="back">
-                     <div class="social-media-wrapper">
-                       <a href="https://www.facebook.com/jayshree.choudhary.1238/" target="_blank" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                       <a href="https://www.linkedin.com/in/038jayshree/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/jayshree_1375/" target="_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+       </div>
+     </div>
+   </div>
+   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+     <div class="outer-div">
+       <div class="inner-div">
+         <div class="front">
+           <div class="front__bkg-photo"></div>
+           <div
+             class="front__face-photo"
+             style="
+               background: url(images/Batch2k23/Jayshree.jpg) no-repeat;
+               background-size: contain;
+               padding-top: 1%;
+             "
+           ></div>
+           <div class="front__text">
+             <h3 class="front__text-header">Jayshree Choudhary</h3>
+             <p class="front__text-para">Public Relations In-charge</p>
+           </div>
+         </div>
+         <div class="back">
+           <div class="social-media-wrapper">
+             <a
+               href="https://www.facebook.com/jayshree.choudhary.1238/"
+               target="_blank"
+               class="social-icon"
+               ><i
+                 class="fab fa-facebook-square"
+                 aria-hidden="true"
+               ></i
+             ></a>
+             <a
+               href="https://www.linkedin.com/in/038jayshree/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+             ></a>
+             <a
+               href="https://www.instagram.com/jayshree_1375/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-instagram" aria-hidden="true"></i
+             ></a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+     <div class="outer-div">
+       <div class="inner-div">
+         <div class="front">
+           <div class="front__bkg-photo"></div>
+           <div
+             class="front__face-photo"
+             style="
+               background: url(images/Batch2k23/CharuBajaj.jpg)
+                 no-repeat;
+               background-size: contain;
+               padding-top: 1%;
+             "
+           ></div>
+
+           <div class="front__text">
+             <h3 class="front__text-header">Charu Bajaj</h3>
+             <p class="front__text-para">Editor</p>
+           </div>
+         </div>
+         <div class="back">
+           <div class="social-media-wrapper">
+             <a
+               href="https://www.linkedin.com/in/charu-bajaj-2888b4203/"
+               target="_blank"
+               class="social-icon"
+               ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+             ></a>
                      </div>
                    </div>
                  </div>
