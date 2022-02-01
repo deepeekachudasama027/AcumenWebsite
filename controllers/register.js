@@ -1,11 +1,12 @@
-const { getrollno, updatedetails } = require("../models/registration");
+const { getrollno, updatedetails,getemail } = require("../models/registration");
 const {updatelogin_clueminati,updatelogin_arsenal, updatesession_clueminati}  = require("../models/login");
 
 exports.getdetails = async (req, res, next) => {
   try {
-    if (req.body.rollno>=100000000 && `${req.body.rollno}`.length === 9 && req.body.password && req.body.name && req.body.email) {
+    if (req.body.rollno>=100000000 && `${req.body.rollno}`.length === 9 && req.body.password && req.body.name && req.body.email && isNaN(req.body.name)) {
       const getdata = await getrollno(req.body.rollno);
-      if (getdata.rowCount > 0) {
+      const getdata_email = await getemail(req.body.email);
+      if (getdata.rowCount > 0 || getdata_email.rowCount > 0) {
         res.render("layout/registration", {
           message: "User already exists!",
         })

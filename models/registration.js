@@ -7,6 +7,14 @@ pool.query(
   }
 );
 
+exports.getemail = (email, callback) => {
+  return pool.query(
+    "select * from  registration WHERE email = $1",
+    [email],
+    callback
+  );
+};
+
 exports.getrollno = (rollno, callback) => {
   return pool.query(
     "select * from  registration WHERE rollno = $1",
