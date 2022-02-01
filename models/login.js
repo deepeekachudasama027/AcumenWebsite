@@ -1,29 +1,21 @@
 var pool = require("../controllers/db");
 
-pool.query("drop table login_clueminati,login_arsenal,registration,question_clueminati,session_clueminati")
+// pool.query("drop table login_clueminati,registration,session_clueminati")
 
-// pool.query(
-//    "CREATE TABLE IF NOT EXISTS login_clueminati (rollno int PRIMARY KEY ,cur_id int default 1 ,password varchar (50), score int default 1000,curhint int default 0, total_hit int default 0, wrong_hit int default 0 )",
-//   (err, result) =>{
-//     if (err) throw err;
-//   }
-// );
-
-
-// pool.query(
-//     "CREATE TABLE IF NOT EXISTS login_arsenal (rollno int PRIMARY KEY ,password varchar (50), coin int default 0)",
-//    (err, result) =>{
-//      if (err) throw err;
-//    }
-//  );
+pool.query(
+   "CREATE TABLE IF NOT EXISTS login_clueminati (rollno int PRIMARY KEY ,cur_id int default 1 ,password varchar (50), score int default 1000,curhint int default 0, total_hit int default 0, wrong_hit int default 0 )",
+  (err, result) =>{
+    if (err) throw err;
+  }
+);
 
 
-// pool.query(
-//   "CREATE TABLE IF NOT EXISTS session_clueminati (rollno int primary key ,f int default 0,count int default 0)",
-//  (err, result) =>{
-//    if (err) throw err;
-//  }
-// );
+pool.query(
+  "CREATE TABLE IF NOT EXISTS session_clueminati (rollno int primary key ,f int default 0,count int default 0)",
+ (err, result) =>{
+   if (err) throw err;
+ }
+);
 
 exports.updatesession_clueminati = (rollno, password, callback) => {
   return pool.query(
