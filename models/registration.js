@@ -1,11 +1,11 @@
 var pool = require("../controllers/db");
 
-// pool.query(
-//   "CREATE TABLE IF NOT EXISTS registration (rollno int PRIMARY KEY ,password varchar (50),name varchar (50),email varchar (50))",
-//   (err, result) => {
-//     if (err) console.log(err);
-//   }
-// );
+pool.query(
+  "CREATE TABLE IF NOT EXISTS registration (rollno int PRIMARY KEY ,password varchar (50),name varchar (50),email varchar (50))",
+  (err, result) => {
+    if (err) console.log(err);
+  }
+);
 
 exports.getemail = (email, callback) => {
   return pool.query(
