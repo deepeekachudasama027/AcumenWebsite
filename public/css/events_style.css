@@ -28,6 +28,7 @@ html,body {
    font-family: "Montserrat", sans-serif;
  }
  
+
  .heading{
     text-align: center;
     font-family: Wallpoet, sans-serif;
@@ -154,6 +155,10 @@ html,body {
 
 
 @media screen and (max-width: 800px) {
+ .navbar-brand{
+   float:left;
+   margin-left: -10rem !important;
+ }
 
     .heading h1{
         font-size: 2.5rem;

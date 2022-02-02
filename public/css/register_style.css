@@ -46,7 +46,7 @@ body {
   text-decoration: none;
 
   margin: 1.3rem;
-  margin-left: 0.5rem;
+  margin-left: -1rem;
 }
 
 .navbar-brand img {
@@ -247,14 +247,15 @@ body {
     align-items: flex-start;
   }
   .navbar-brand {
-    width: 200px;
+    width: 100px;
     float: left;
+    margin-left: -2rem !important;
   }
 
   .navbar-brand img {
     width: 10rem;
     margin-top: -1rem;
-    margin-left: -4rem;
+ 
   }
   .toggle-button {
     display: flex;
