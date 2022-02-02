@@ -59,11 +59,11 @@
         <div>
     <form class="box" method="POST" action="register">
       <h1 class="event-page">Registration</h1>
-      <input type="text" name="name"  placeholder="Your Name" autocomplete="off" autocapitalize="on" required />
-      <input type="text" pattern="\d*" name="rollno" placeholder="Roll Number" autocomplete="off" minlength="9"
+      <input type="text" name="name"  placeholder="Your Name" autocomplete="off" autocapitalize="on" maxlength="50" required />
+      <input type="text" pattern="\d*" name="rollno" placeholder="Roll Number" autocomplete="off"  minlength="9"
         maxlength="9" required />
-         <input type="email" name="email" placeholder="Email ID" autocomplete="off" required>
-      <input type="Password" name="password" placeholder="Password" autocomplete="off" minlength="5" required />
+         <input type="email" name="email" placeholder="Email ID" autocomplete="off" maxlength="50" required>
+      <input type="Password" name="password" placeholder="Password" autocomplete="off" minlength="5" maxlength="50" required />
        
       <input type="Submit" name="register" value="Register" />
        <div id='status' class='invisible'>{{message}}</div>
