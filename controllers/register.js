@@ -3,7 +3,7 @@ const {updatelogin_clueminati, updatesession_clueminati}  = require("../models/l
 
 exports.getdetails = async (req, res, next) => {
   try {
-    if (req.body.rollno>=100000000 && `${req.body.rollno}`.length === 9 && req.body.password && req.body.name && req.body.email && isNaN(req.body.name)&& `${req.body.password}`<51 && `${req.body.name}`<51 && `${req.body.email}`<51) {
+    if (req.body.rollno>=100000000 && `${req.body.rollno}`.length === 9 && req.body.password && req.body.name && req.body.email && isNaN(req.body.name)) {
       const getdata = await getrollno(req.body.rollno);
       const getdata_email = await getemail(req.body.email);
       if (getdata.rowCount > 0 || getdata_email.rowCount > 0) {
