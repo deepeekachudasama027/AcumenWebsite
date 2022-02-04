@@ -1,11 +1,9 @@
+const toggleButton = document.getElementsByClassName("toggle-button")[0];
+const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-
-toggleButton.addEventListener('click', () => {
-    navbarLinks.classList.toggle('active')
-})
-
+toggleButton.addEventListener("click", () => {
+  navbarLinks.classList.toggle("active");
+});
 
 var id23 = document.getElementById("id23");
 var btn23 = document.getElementById("b23");
@@ -15,10 +13,9 @@ var btn22 = document.getElementById("b22");
 // var btn21 = document.getElementById("b21");
 var b = document.getElementById("dropdownMenu2");
 
-function func23(){
-    b.innerHTML = "Batch 2023";
-    document.getElementById("team").innerHTML = 
-   ` <div id = "id23">
+function func23() {
+  b.innerHTML = "Batch 2023";
+  document.getElementById("team").innerHTML = ` <div id = "id23">
    <div class="row h-100 justify-content-center align-items-center">
      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
      <div class="outer-div">
@@ -363,10 +360,9 @@ function func23(){
  </div>`;
 }
 
-function func22(){
-    b.innerHTML = "Batch 2022";
-    document.getElementById("team").innerHTML =
-    `<div id = "id22">
+function func22() {
+  b.innerHTML = "Batch 2022";
+  document.getElementById("team").innerHTML = `<div id = "id22">
   <div class="row h-100 justify-content-center align-items-center">
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="outer-div">
@@ -444,6 +440,41 @@ function func22(){
       </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+    <div class="outer-div">
+      <div class="inner-div">
+        <div class="front">
+          <div class="front__bkg-photo"></div>
+          <div
+            class="front__face-photo"
+            style="
+              background: url(images/Batch2k22/Darshni_Gupta.jpg) no-repeat;
+              background-size: contain;
+            "
+          ></div>
+          <div class="front__text">
+            <h3 class="front__text-header">Darshni Gupta</h3>
+            <p class="front__text-para">Vice Chairperson</p>
+
+            <!--<span class="front__text-hover">Hover to Find Me</span>-->
+          </div>
+        </div>
+        <div class="back">
+          <div class="social-media-wrapper">
+            <a href="https://www.facebook.com/darshni.gupta.1/" target="_blank" class="social-icon"
+              ><i class="fab fa-facebook-square" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/darshni-gupta-0867991b6/" target="_blank" class="social-icon"
+              ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+            ></a>
+            <a href="https://www.instagram.com/darshg19/" target="_blank" class="social-icon"
+              ><i class="fab fa-instagram" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="outer-div">
         <div class="inner-div">
           <div class="front">
@@ -478,6 +509,8 @@ function func22(){
         </div>
       </div>
     </div>
+    </div>
+    <div class="row">
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="outer-div">
         <div class="inner-div">
@@ -512,8 +545,8 @@ function func22(){
         </div>
       </div>
     </div>
-  </div>
-  <div class="row">
+  
+  
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="outer-div">
         <div class="inner-div">
@@ -647,45 +680,11 @@ function func22(){
         </div>
       </div>
     </div>
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="outer-div">
-        <div class="inner-div">
-          <div class="front">
-            <div class="front__bkg-photo"></div>
-            <div
-              class="front__face-photo"
-              style="
-                background: url(images/Batch2k22/Darshni_Gupta.jpg) no-repeat;
-                background-size: contain;
-              "
-            ></div>
-            <div class="front__text">
-              <h3 class="front__text-header">Darshni Gupta</h3>
-              <p class="front__text-para">Resource In-charge</p>
-
-              <!--<span class="front__text-hover">Hover to Find Me</span>-->
-            </div>
-          </div>
-          <div class="back">
-            <div class="social-media-wrapper">
-              <a href="https://www.facebook.com/darshni.gupta.1/" target="_blank" class="social-icon"
-                ><i class="fab fa-facebook-square" aria-hidden="true"></i
-              ></a>
-              <a href="https://www.linkedin.com/in/darshni-gupta-0867991b6/" target="_blank" class="social-icon"
-                ><i class="fab fa-linkedin-in" aria-hidden="true"></i
-              ></a>
-              <a href="https://www.instagram.com/darshg19/" target="_blank" class="social-icon"
-                ><i class="fab fa-instagram" aria-hidden="true"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
+   
     </div>
   </div>
-     </div> `
+     </div> `;
 }
-
 
 // function func21(){
 //     b.innerHTML = "Batch 2021";
@@ -733,7 +732,7 @@ function func22(){
 //              </div>
 //            </div>
 //          </div>
-//          </div>  
+//          </div>
 //          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
 //          <div class="outer-div">
 //              <div class="inner-div">
@@ -753,8 +752,7 @@ function func22(){
 //              </div>
 //          </div>
 //          </div>
-     
-         
+
 //              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
 //              <div class="outer-div">
 //                <div class="inner-div">
@@ -777,7 +775,7 @@ function func22(){
 //              </div>
 //              </div>
 //      </div>
-   
+
 //     <div class="row">
 //     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
 //             <div class="outer-div">
@@ -799,7 +797,7 @@ function func22(){
 //                 </div>
 //               </div>
 //             </div>
-//             </div>       
+//             </div>
 //     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
 //              <div class="outer-div">
 //                <div class="inner-div">
@@ -839,7 +837,7 @@ function func22(){
 //             </div>
 //           </div>
 //         </div>
-//         </div>  
+//         </div>
 //     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
 //             <div class="outer-div">
 //               <div class="inner-div">
@@ -861,8 +859,7 @@ function func22(){
 //               </div>
 //             </div>
 //             </div>
-            
-    
+
 //     </div>
 //     </div>`;
 // }
