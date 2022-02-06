@@ -57,7 +57,7 @@
     </div>
   </nav>
         <div>
-    <form class="box" method="POST" action="register">
+    {{!-- <form class="box" method="POST" action="register">
       <h1 class="event-page">Registration</h1>
       <input type="text" name="name"  placeholder="Your Name" autocomplete="off" autocapitalize="on" maxlength="50" required />
       <input type="text" pattern="\d*" name="rollno" placeholder="Roll Number" autocomplete="off"  minlength="9"
@@ -67,10 +67,10 @@
        
       <input type="Submit" name="register" value="Register" />
        <div id='status' class='invisible'>{{message}}</div>
-    </form>
-    {{!-- <center>
+    </form> --}}
+    <center>
         <h1 style="color: rgb(243, 166, 23); margin-top:25vh; font-size:10vh">Registration Closed</h1>
-    </center> --}}
+    </center>
   
   </div>
 
@@ -83,7 +83,7 @@
         navbarLinks.classList.toggle("active");
       });
 
-      if ($('div#status').text() != '') {
+     /* if ($('div#status').text() != '') {
       var msg = $('div#status').text()
       if (msg == 'Successfully Registered!') {
         swal.fire({
@@ -98,7 +98,7 @@
           text: msg
         });
       }
-    }
+    } */
     </script>
     </script>
   </body>

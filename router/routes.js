@@ -31,7 +31,7 @@ router.get("/about", (req, res) => {
   res.sendFile(path.resolve("./public/static/about.html"));
 });
 
-router.post("/register", getdetails);
+// router.post("/register", getdetails);
 
 
 
